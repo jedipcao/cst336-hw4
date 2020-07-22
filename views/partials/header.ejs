@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Patrick Cao HW1: Agile Development</title>
+    <link href="/css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Agile Development</h1>
+    </header>
+
+    <nav>
+        <a href="/" <% if (page_name==='home' ) { %>class="active"<% } %>>Agile Development</a>
+        <a href="/benefits" <% if (page_name==='benefits' ) { %>class="active"<% } %>>Benefits</a>
+        <a href="/how" <% if (page_name==='how' ) { %>class="active"<% } %>>How</a>
+        <a href="/values" <% if (page_name==='values' ) { %>class="active"<% } %>>Values</a>
+        <a href="/principle" <% if (page_name==='principle' ) { %>class="active"<% } %>>Principles</a>
+    </nav>
+
+    <div id="main">

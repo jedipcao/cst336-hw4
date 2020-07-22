@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+    color: navy;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header,
+main,
+nav,
+footer {
+    text-align: center;
+}
+
+header h1 {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+nav {
+    display: table;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, .1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+nav a {
+    display: table-cell;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+}
+
+nav a.active,
+nav a:hover {
+    background: #cd1912;
+    color: #fff;
+}
+
+#main {
+    margin: 20px auto;
+    width: 60%;
+}
+
+#main p,
+#main ul {
+    margin-bottom: 20px;
+}
+
+#main ol {
+    list-style-position: inside;
+    background: url("../images/background-2218517_960_720.jpg") top center no-repeat;
+    width: 530px;
+    height: 720px;
+    margin: 0 auto;
+    padding: 135px 0 0;
+}
+
+#main ol li {
+    padding: 0 20px;
+    line-height: 1.5em;
+}
+
+#main p.strong {
+    font-weight: bold;
+}
+
+#main img {
+    width: 100%;
+}
+
+#main_left {
+    float: left;
+    width: 50%;
+}
+
+#main_right {
+    float: right;
+    width: 50%;
+}
+
+footer {
+    clear: both;
+    font-size: 0.8em;
+    color: gray;
+}
+
+footer ul {
+    width: 100%;
+    margin: 10px 0;
+}
+
+footer ul li {
+    width: fit-content;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#csumb_logo {
+    width: 260px;
+}
